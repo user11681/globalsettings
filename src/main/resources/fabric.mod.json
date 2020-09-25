@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "globalsettings",
+    "version": "${version}",
+
+    "name": "global settings",
+    "description": "a mod that stores game settings in a global file",
+    "authors": [
+        "user11681"
+    ],
+    "contact": {
+        "repo": "https://github.com/user11681/globalsettings"
+    },
+
+    "license": "LGPL-3.0",
+    "icon": "assets/globalsettings/icon.png",
+
+    "environment": "*",
+    "entrypoints": {},
+
+    "mixins": [
+        "globalsettings.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.9.3+build.207",
+        "minecraft": "1.16.3"
+    }
+}
